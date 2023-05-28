@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+header{
+    height: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+    font-size: 70px;
+    animation: rainbow 4s infinite ease-in-out;
+}
+
+#start{
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+    font-size: 70px;
+    animation: rainbow 4s infinite ease-in-out;
+}
+@keyframes rainbow {
+    100%, 0%{
+        color: orangered;
+    }   
+    12%{
+        color: yellow;
+    } 
+    25%{
+        color: red;
+    }
+    37%{
+        color: green;
+    }
+    50%{
+        color: cyan;
+    }
+    63%{
+        color: blue;
+    }
+    75%{
+        color: darkorchid;
+    }
+
+    90%{
+        color: white;
+    }
+    99%{
+        color: yellow;
+    }
+}
